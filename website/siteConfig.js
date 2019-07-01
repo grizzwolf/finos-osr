@@ -8,20 +8,20 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Decentralized Ecosystem Growth',
-  tagline: 'FINOS DEG - Open source for open finance',
-  url: 'https://grizzwolf.github.io/finos-deg/',
+  title: 'Open Source Readiness',
+  tagline: 'FINOS OSR - Open Source Readiness in Finance',
+  url: 'https://grizzwolf.github.io/finos-osr/',
   //cname: 'decentralized.finos.org',
-  baseUrl: '/finos-deg/',
-  projectName: 'finos-deg',
+  baseUrl: '/finos-osr/',
+  projectName: 'finos-osr',
   organizationName: 'grizzwolf',
   headerLinks: [
     {doc: 'learn-more', label: 'Learn More'},
     {doc: 'projects', label: 'Projects'},
     { blog: true, label: 'News' },
   ],
-  headerIcon: 'img/deg-icon-2019.png',
-  footerIcon: 'img/deg-icon-2019.png',
+  headerIcon: 'img/osr-icon-2019.png',
+  footerIcon: 'img/osr-icon-2019.png',
   favicon: 'img/favicon/favicon.ico',
   colors: {
     primaryColor: '#0086bf',
