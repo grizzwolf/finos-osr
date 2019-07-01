@@ -41,9 +41,7 @@ class Footer extends React.Component {
             <a href={this.docUrl('projects', this.props.language)}>
               Call for Projects
             </a>
-            <a href={this.pageUrl('getinvolved', this.props.language)}>
-              Get Involved
-            </a>
+            
           </div>
           <div>
           <h5>Community</h5>
@@ -57,7 +55,7 @@ class Footer extends React.Component {
               href="https://finosfoundation.atlassian.net/wiki/spaces/DEG/overview"
               target="_blank"
               rel="noreferrer noopener">
-              Decentralized Ecosystem Growth Program Wiki
+              Decentralized Ecosystem Growth Wiki
             </a>
             <a
               href="https://groups.google.com/a/finos.org/forum/#!forum/deg"

@@ -97,7 +97,7 @@ header.postHeader:empty {
   }
   
   .homeContainer {
-    background-image: url("../img/fo-background.png"); /* CHANGE THIS TO BACKGROUND LOGO PNG - THIS IS A SEMI-TRANSPARENT DOUBLE RENDERING OF THE LOGO ICON */
+    background-image: url("../img/deg-background.png"); /* CHANGE THIS TO BACKGROUND LOGO PNG - THIS IS A SEMI-TRANSPARENT DOUBLE RENDERING OF THE LOGO ICON */
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #2CB34A; /* CHANGE THIS TO PRIMARY PROJECT COLOR */

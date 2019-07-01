@@ -20,8 +20,8 @@ const siteConfig = {
     {doc: 'projects', label: 'Projects'},
     { blog: true, label: 'News' },
   ],
-  headerIcon: 'img/finos-white.png',
-  footerIcon: 'img/finos.png',
+  headerIcon: 'img/deg-icon-2019.png',
+  footerIcon: 'img/deg-icon-2019.png',
   favicon: 'img/favicon/favicon.ico',
   colors: {
     primaryColor: '#0086bf',
