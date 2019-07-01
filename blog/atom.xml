@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://grizzwolf.github.io/finos-deg//finos-deg/blog</id>
-    <title>Decentralized Ecosystem Growth Blog</title>
+    <id>https://grizzwolf.github.io/finos-osr//finos-osr/blog</id>
+    <title>Open Source Readiness Blog</title>
     <updated>2019-03-01T06:00:00Z</updated>
     <generator>Feed for Node.js</generator>
-    <link rel="alternate" href="https://grizzwolf.github.io/finos-deg//finos-deg/blog"/>
-    <subtitle>The best place to stay up-to-date with the latest Decentralized Ecosystem Growth news and events.</subtitle>
-    <logo>https://grizzwolf.github.io/finos-deg//finos-deg/img/deg-icon-2019.png</logo>
+    <link rel="alternate" href="https://grizzwolf.github.io/finos-osr//finos-osr/blog"/>
+    <subtitle>The best place to stay up-to-date with the latest Open Source Readiness news and events.</subtitle>
+    <logo>https://grizzwolf.github.io/finos-osr//finos-osr/img/osr-icon-2019.png</logo>
     <rights>Copyright © 2019 FINOS - The Fintech Opensource Foundation</rights>
     <entry>
         <title type="html"><![CDATA[Open Source in Fintech Meetup - March 5, 2019]]></title>
-        <id>https://grizzwolf.github.io/finos-deg//finos-deg/blog/2019/03/01/DEG-Meetup-On-March-5.html</id>
-        <link href="https://grizzwolf.github.io/finos-deg//finos-deg/blog/2019/03/01/DEG-Meetup-On-March-5.html">
+        <id>https://grizzwolf.github.io/finos-osr//finos-osr/blog/2019/03/01/DEG-Meetup-On-March-5.html</id>
+        <link href="https://grizzwolf.github.io/finos-osr//finos-osr/blog/2019/03/01/DEG-Meetup-On-March-5.html">
         </link>
         <updated>2019-03-01T06:00:00Z</updated>
         <summary type="html"><![CDATA[<p>FINOS' next Open Source in Fintech Event Series Meetup is Tuesday, March 5th at <a href="https://www.moodys.com/">Moody's</a>. The theme of the evening will be FINOS' newly launched Decentralized Ecosytem Growth program for which I serve as Program Management Committee Lead.</p> <p>Join us by r...</p>]]></summary>
