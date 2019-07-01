@@ -52,13 +52,13 @@ class Footer extends React.Component {
               FINOS
             </a>
             <a
-              href="https://finosfoundation.atlassian.net/wiki/spaces/DEG/overview"
+              href="https://finosfoundation.atlassian.net/wiki/spaces/OSR/overview"
               target="_blank"
               rel="noreferrer noopener">
               Decentralized Ecosystem Growth Wiki
             </a>
             <a
-              href="https://groups.google.com/a/finos.org/forum/#!forum/deg"
+              href="https://groups.google.com/a/finos.org/forum/#!forum/osr"
               target="_blank"
               rel="noreferrer noopener">
               Mailing List

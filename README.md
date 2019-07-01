@@ -2,7 +2,7 @@
 [![FINOS - Incubating](https://cdn.rawgit.com/finos/contrib-toolbox/master/images/badge-incubating.svg)](https://finosfoundation.atlassian.net/wiki/display/FINOS/Incubating)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-# FINOS DEG
+# FINOS OSR
 
 FINOS Decentralized Ecosystem is a community-led initiative that ...
 
@@ -14,7 +14,7 @@ If you want to check the objects source code, browse the [src/objects](src/objec
 
 ## Contributing
 
-1. Fork it (<https://github.com/finos-deg/finos-deg.github.io/fork>)
+1. Fork it (<https://github.com/finos-osr/finos-osr.github.io/fork>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Read our [contribution guidelines](.github/CONTRIBUTING.md) and [Community Code of Conduct](https://www.finos.org/code-of-conduct)
 4. Commit your changes (`git commit -am 'Add some fooBar'`)

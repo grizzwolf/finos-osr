@@ -51,8 +51,8 @@ const siteConfig = {
 
   twitterUsername: 'finos',
   // Open Graph and Twitter card images.
-  ogImage: 'img/deg-logo-white.png',
-  twitterImage: 'img/deg-logo-white.png',
+  ogImage: 'img/osr-logo-white.png',
+  twitterImage: 'img/osr-logo-white.png',
 
   // Show documentation's last contributor's name.
   enableUpdateBy: true,

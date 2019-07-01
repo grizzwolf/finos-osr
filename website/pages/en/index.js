@@ -104,8 +104,8 @@ class Index extends React.Component {
       <Block id="try">
         {[
           {
-            content: "<p>Discussion happens on the mailing list. <br>Send a blank <a href='mailto:deg+subscribe@finos.org'>email</a> to join or read the <a href='https://groups.google.com/a/finos.org/forum/#!forum/deg'>archives</a>.</p><p>We meet virtually once per quarter to share progress and exchange ideas, and you don't need to be a member to join the conversation. Check the <a href='https://calendar.google.com/calendar/embed?src=finos.org_fac8mo1rfc6ehscg0d80fi8jig%40group.calendar.google.com&ctz=America%2FNew_York'>calendar</a> for details.</p>",
-            image: `${baseUrl}img/deg-logo-white.png`,
+            content: "<p>Discussion happens on the mailing list. <br>Send a blank <a href='mailto:osr+subscribe@finos.org'>email</a> to join or read the <a href='https://groups.google.com/a/finos.org/forum/#!forum/osr'>archives</a>.</p><p>We meet virtually once per quarter to share progress and exchange ideas, and you don't need to be a member to join the conversation. Check the <a href='https://calendar.google.com/calendar/embed?src=finos.org_fac8mo1rfc6ehscg0d80fi8jig%40group.calendar.google.com&ctz=America%2FNew_York'>calendar</a> for details.</p>",
+            image: `${baseUrl}img/osr-logo-color.png`,
             imageAlign: 'left',
             title: 'The Decentralized Ecosystem Growth program is a welcoming place for people interested in decentralized finance to meet, learn, and build.',
           },
@@ -119,7 +119,7 @@ class Index extends React.Component {
           {
             content:
               "Welcome to the collaboration space for the Decentralized Ecosystem Growth Program!  This Program was formed to aggregate, develop, and integrate tools that facilitate coordination of decentralized applications across financial firms and existing ecosystems. Best practices and promising architectures may be proposed and circulated, but the goal is not to create top-down standards documents. Instead, we will work together to ensure there is concrete code, open-sourced both within FINOS and across various member and non-member firms' repositories, which work together to reduce time-to-market for decentralized financial applications.",
-            image: `${baseUrl}img/deg-logo-white.png`,
+            image: `${baseUrl}img/osr-logo-white.png`,
             imageAlign: 'right',
             title: 'this one',
           },
@@ -132,7 +132,7 @@ class Index extends React.Component {
         {[
           {
             content: "our mission",
-            image: `${baseUrl}img/deg-logo-white.png`,
+            image: `${baseUrl}img/osr-logo-white.png`,
             imageAlign: 'right',
             title: 'Mission',
           },

@@ -1,5 +1,5 @@
 {
-  "name": "finos-deg-website",
+  "name": "finos-osr-website",
   "license": "Apache-2.0",
   "scripts": {
     "examples": "docusaurus-examples",

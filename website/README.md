@@ -15,8 +15,8 @@ This website was created with [Docusaurus](https://docusaurus.io/) using [FINOS 
 
 1. Make sure all the dependencies for the website are installed:
 
-git clone https://github.com/finos-fo/finos-deg.github.io.git
-cd finos-deg.github.io/website
+git clone https://github.com/finos-osr/finos-osr.github.io.git
+cd finos-osr.github.io/website
 
 
 ```sh
