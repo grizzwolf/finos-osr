@@ -22,7 +22,7 @@ const siteConfig = {
   ],
   headerIcon: 'img/osr-icon-2019.png',
   footerIcon: 'img/osr-icon-2019.png',
-  favicon: 'img/favicon/favicon.ico',
+  favicon: 'img/favicon/favicon.ico', 
   colors: {
     primaryColor: '#0086bf',
     secondaryColor: '#000000',
