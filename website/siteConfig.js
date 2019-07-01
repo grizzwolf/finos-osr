@@ -10,11 +10,11 @@ const users = [
 const siteConfig = {
   title: 'Decentralized Ecosystem Growth',
   tagline: 'FINOS DEG - Open source for open finance',
-  url: 'https://decentralized.finos.org',
-  cname: 'decentralized.finos.org',
-  baseUrl: '/',
+  url: 'https://grizzwolf.github.io/finos-deg/',
+  //cname: 'decentralized.finos.org',
+  baseUrl: '/finos-deg/',
   projectName: 'finos-deg',
-  organizationName: 'finos-deg',
+  organizationName: 'grizzwolf',
   headerLinks: [
     {doc: 'learn-more', label: 'Learn More'},
     {doc: 'projects', label: 'Projects'},
@@ -24,8 +24,8 @@ const siteConfig = {
   footerIcon: 'img/finos.png',
   favicon: 'img/favicon/favicon.ico',
   colors: {
-    primaryColor: '#00b5e2',
-    secondaryColor: '#205C3B',
+    primaryColor: '#0086bf',
+    secondaryColor: '#000000',
   },
 
   // If you have users set above, you add it here:
@@ -62,7 +62,7 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  repoUrl: 'https://github.com/finos-deg/finos-deg'
+  repoUrl: 'https://github.com/grizzwolf/finos-deg'
 };
 
 module.exports = siteConfig;
