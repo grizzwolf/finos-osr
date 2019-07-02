@@ -1,8 +1,8 @@
 {
   "docs": {
     "About OSR": [
-      "learn-more",
-      "get-involved"
+      "learn-more"
+    
     ],
     "OSLC Handbook": [
       "oslc-home",
@@ -12,8 +12,8 @@
   },
   "interfaces": {
     "About OSR": [
-      "learn-more",
-      "get-involved"
+      "learn-more"
+    
       
     ],
     "OSLC Handbook": [

@@ -38,8 +38,8 @@ class Footer extends React.Component {
             <a href={this.docUrl('learn-more', this.props.language)}>
               Learn More
             </a>
-            <a href={this.docUrl('projects', this.props.language)}>
-              Call for Projects
+            <a href={this.docUrl('oslc-home', this.props.language)}>
+              OSLC Handbook
             </a>
             
           </div>
@@ -55,7 +55,7 @@ class Footer extends React.Component {
               href="https://finosfoundation.atlassian.net/wiki/spaces/OSR/overview"
               target="_blank"
               rel="noreferrer noopener">
-              Decentralized Ecosystem Growth Wiki
+              Open Source Readiness Wiki
             </a>
             <a
               href="https://groups.google.com/a/finos.org/forum/#!forum/osr"

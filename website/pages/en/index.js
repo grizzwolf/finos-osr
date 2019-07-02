@@ -65,7 +65,7 @@ class HomeSplash extends React.Component {
           <img src="img/osr-icon-2019.png"></img>
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
-            <Button href={docUrl('projects')}>OSLC Handbook</Button>
+            <Button href={docUrl('oslc-home')}>OSLC Handbook</Button>
             <Button href="https://github.com/finos-osr">GitHub</Button>
           </PromoSection>
         </div>
@@ -114,23 +114,20 @@ class Index extends React.Component {
     
             <h2>Features</h2>
             <MarkdownBlock background="dark">
-        A fast, memory efficient streaming pivot engine written principally in C++ and
-        compiled to both WebAssembly and asm.js via the
-        [emscripten](https://github.com/kripken/emscripten) compiler.
+            ### Knowledge-sharing
             </MarkdownBlock>
             <MarkdownBlock>
-        An embeddable, framework-agnostic configuration UI, based
-        on [Web Components](https://www.webcomponents.org/), and a WebWorker engine 
-        host for responsiveness at high frequency.
+            Our Open Source Readiness Working Group meets bi-weekly for guest presentations, knowledge-sharing between financial industry firms solving similar issues on their road to open source readiness, and discussion of open source strategy. Take a look at upcoming meeting agendas and join us!
+            </MarkdownBlock>
+
+            <MarkdownBlock>
+            ### Policy & process guidance
             </MarkdownBlock>
             <MarkdownBlock>
-        A suite of simple visualization plugins for some common Javascript libraries such as
-        [HighCharts](https://github.com/highcharts/highcharts) and 
-        [Hypergrid](https://github.com/fin-hypergrid/core).
+            We produce legal and procedural frameworks to support compliant open source participation by financial services firms. The Reference FOSS Policy for Financial Services Firms is a template from which to build a comprehensive FOSS compliance program.
+            In early 2019, we'll publish the first version of a License Compliance Handbook with practical compliance information about the most common FOSS licenses. We'll also solicit participation in our Open Source Readiness Assessment and give participants a scorecard and roadmap to guide progress by.
             </MarkdownBlock>
-            <MarkdownBlock>
-        Runtimes for the Browser and Node.js.
-            </MarkdownBlock>
+            
         
               </div>
               <div class="blockElement imageAlineSide imageAlineRight twoByGridBlock">
@@ -179,19 +176,19 @@ class Index extends React.Component {
       <Block background="light" layout="fourColumn">
         {[
           {
-            content: "text here",
+            content: "",
             image: `${baseUrl}img/check-box.svg`,
             imageAlign: 'top',
             title: 'Knowledge Sharing',
           },
           {
-            content: "text here",
+            content: "",
             image: `${baseUrl}img/check-box.svg`,
             imageAlign: 'top',
             title: 'Policy & Process Guidance',
           },
           {
-            content: "text here",
+            content: "",
             image: `${baseUrl}img/check-box.svg`,
             imageAlign: 'top',
             title: 'Governance',
