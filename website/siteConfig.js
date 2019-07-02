@@ -17,8 +17,9 @@ const siteConfig = {
   organizationName: 'grizzwolf',
   headerLinks: [
     {doc: 'learn-more', label: 'Learn More'},
-    {doc: 'projects', label: 'Projects'},
-    { blog: true, label: 'News' },
+    {doc: 'oslc-home', label: 'OSLC Handbook'},
+    {doc: 'get-involved', label: 'Get Involved'},
+    //{ blog: true, label: 'News' },
   ],
   headerIcon: 'img/osr-icon-2019.png',
   footerIcon: 'img/osr-icon-2019.png',

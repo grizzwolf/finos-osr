@@ -2,19 +2,24 @@
   "docs": {
     "About OSR": [
       "learn-more",
-      "charter"
+      "get-involved"
     ],
-    "Projects": [
-      "projects"
+    "OSLC Handbook": [
+      "oslc-home",
+      "oslc-overview",
+      "oslc-licenses"
     ]
   },
   "interfaces": {
     "About OSR": [
       "learn-more",
-      "charter"
+      "get-involved"
+      
     ],
-    "Projects": [
-      "projects"
+    "OSLC Handbook": [
+      "oslc-home",
+      "oslc-overview",
+      "oslc-licenses"
     ]
   }
 }
