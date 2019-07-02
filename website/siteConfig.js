@@ -9,7 +9,7 @@ const users = [
 
 const siteConfig = {
   title: 'Open Source Readiness',
-  tagline: 'FINOS OSR - Open Source Readiness in Finance',
+  tagline: 'Open Source Readiness in Finance',
   url: 'https://grizzwolf.github.io/finos-osr/',
   //cname: 'decentralized.finos.org',
   baseUrl: '/finos-osr/',

@@ -65,7 +65,7 @@ class HomeSplash extends React.Component {
           <img src="img/osr-icon-2019.png"></img>
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
-            <Button href={docUrl('projects')}>Call for Projects</Button>
+            <Button href={docUrl('projects')}>OSLC Handbook</Button>
             <Button href="https://github.com/finos-osr">GitHub</Button>
           </PromoSection>
         </div>
@@ -92,26 +92,61 @@ class Index extends React.Component {
       </Container>
     );
 
-    const FeatureCallout = () => (
-      <div
-        className="productShowcaseSection paddingBottom"
+    const TryOut = () => (
+ 
+        <div 
+        className="featureShowcaseSection paddingTop paddingBottom"
         style={{textAlign: 'center'}}>
-        <MarkdownBlock>...</MarkdownBlock>
+          <h2>About OSR</h2>
+        <MarkdownBlock>Welcome to the FINOS Open Source Readiness Program. We understand that financial services firms face unique obstacles on their road to open source collaboration, including legal & regulatory concerns, internal policies, cultural friction, and heavily restricted technology environments. FINOS supports our members every step of the way through our Open Source Readiness Program, which provides guidance and tools for new open source participants in financial technology.</MarkdownBlock>
+      </div>
+ 
+    );
+
+    const FeatureCallout = props => (
+      <div
+        className="productShowcaseSection paddingTop lightBackground paddingBottom"
+        style={{textAlign: 'center'}}>
+        <div class="wrapper">
+            <div class="gridBlock"
+            style={{textAlign: 'center'}}>
+              <div class="blockElement twoByGridBlock">
+    
+            <h2>Features</h2>
+            <MarkdownBlock background="dark">
+        A fast, memory efficient streaming pivot engine written principally in C++ and
+        compiled to both WebAssembly and asm.js via the
+        [emscripten](https://github.com/kripken/emscripten) compiler.
+            </MarkdownBlock>
+            <MarkdownBlock>
+        An embeddable, framework-agnostic configuration UI, based
+        on [Web Components](https://www.webcomponents.org/), and a WebWorker engine 
+        host for responsiveness at high frequency.
+            </MarkdownBlock>
+            <MarkdownBlock>
+        A suite of simple visualization plugins for some common Javascript libraries such as
+        [HighCharts](https://github.com/highcharts/highcharts) and 
+        [Hypergrid](https://github.com/fin-hypergrid/core).
+            </MarkdownBlock>
+            <MarkdownBlock>
+        Runtimes for the Browser and Node.js.
+            </MarkdownBlock>
+        
+              </div>
+              <div class="blockElement imageAlineSide imageAlineRight twoByGridBlock">
+                  <div class="blockElement">
+                    <div></div>
+                  </div>
+                  <div class="blockImage">
+                    <img src="img/osr-icon-color.png"></img>
+                  </div>
+              </div>
+            </div>
+        </div>
       </div>
     );
 
-    const TryOut = () => (
-      <Block id="try">
-        {[
-          {
-            content: "<p>Discussion happens on the mailing list. <br>Send a blank <a href='mailto:osr+subscribe@finos.org'>email</a> to join or read the <a href='https://groups.google.com/a/finos.org/forum/#!forum/osr'>archives</a>.</p><p>We meet virtually once per quarter to share progress and exchange ideas, and you don't need to be a member to join the conversation. Check the <a href='https://calendar.google.com/calendar/embed?src=finos.org_fac8mo1rfc6ehscg0d80fi8jig%40group.calendar.google.com&ctz=America%2FNew_York'>calendar</a> for details.</p>",
-            image: `${baseUrl}img/osr-logo-color.png`,
-            imageAlign: 'left',
-            title: 'The Decentralized Ecosystem Growth program is a welcoming place for people interested in decentralized finance to meet, learn, and build.',
-          },
-        ]}
-      </Block>
-    );
+  
 
     const Description = () => (
       <Block background="dark">
@@ -144,22 +179,22 @@ class Index extends React.Component {
       <Block background="light" layout="fourColumn">
         {[
           {
-            content: "We build tools that make decentralized finance work for banks, businesses, regulators, clients, and customers.",
+            content: "text here",
             image: `${baseUrl}img/check-box.svg`,
             imageAlign: 'top',
-            title: 'Develop Tools',
+            title: 'Knowledge Sharing',
           },
           {
-            content: "We identify long-standing challenges in the financial industry that we can solve in new ways.",
+            content: "text here",
             image: `${baseUrl}img/check-box.svg`,
             imageAlign: 'top',
-            title: 'Think Differently',
+            title: 'Policy & Process Guidance',
           },
           {
-            content: "We learn from each other and we create space for diverse perspectives to flourish.",
+            content: "text here",
             image: `${baseUrl}img/check-box.svg`,
             imageAlign: 'top',
-            title: 'Build Community',
+            title: 'Governance',
           }
         ]}
       </Block>
@@ -199,8 +234,11 @@ class Index extends React.Component {
         <div className="mainContainer">
           <Features />
           <TryOut />
+          <FeatureCallout />
+         
+          
           {/* <LearnHow />*/}
-          {/* <Description />*/}
+          {/*<Description />*/}
           {/* <Showcase /> */}
         </div>
       </div>
